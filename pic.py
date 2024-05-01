@@ -2,10 +2,10 @@ import cv2
 import os
 
 # Path to the input 4K video file
-video_path = 'vdo.MOV'
+video_path = 'video.MOV'
 
 # Directory to save the extracted frames
-output_dir = 'photu'
+output_dir = 'photo'
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
